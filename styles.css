@@ -67,6 +67,23 @@ body {
     color: var(--green);
 }
 
+.logo img {
+    height: 90px;
+    width: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(139, 69, 19, 0.13);
+    margin-right: 18px;
+    background: #fffbe9;
+    padding: 3px 6px;
+    object-fit: contain;
+    vertical-align: middle;
+    transition: box-shadow 0.3s;
+}
+
+.logo img:hover {
+    box-shadow: 0 4px 16px rgba(139, 69, 19, 0.18);
+}
+
 .nav-menu {
     display: flex;
     list-style: none;
@@ -755,6 +772,23 @@ section h2 {
     color: var(--green);
 }
 
+.footer-logo img {
+    height: 90px;
+    width: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(139, 69, 19, 0.13);
+    margin-right: 18px;
+    background: #fffbe9;
+    padding: 3px 6px;
+    object-fit: contain;
+    vertical-align: middle;
+    transition: box-shadow 0.3s;
+}
+
+.footer-logo img:hover {
+    box-shadow: 0 4px 16px rgba(139, 69, 19, 0.18);
+}
+
 .footer-social {
     display: flex;
     gap: 15px;
@@ -878,6 +912,11 @@ section h2 {
 
     .tecnica-grid {
         grid-template-columns: 1fr;
+    }
+
+    .logo img, .footer-logo img {
+        height: 56px;
+        margin-right: 10px;
     }
 }
 
